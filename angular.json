@@ -124,5 +124,10 @@
       }
     }
   },
+  "schematics": {
+    "@schematics/angular:component": {
+      "skipTests": true
+    }
+  },
   "defaultProject": "shopping-cart"
 }
