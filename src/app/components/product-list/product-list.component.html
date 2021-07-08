@@ -6,9 +6,9 @@
             <a [title]="product.name + ' details'" [routerLink]="['products', product.id]">{{product.name}}</a>
         </h3>
         <p *ngIf="product.description"> {{product.description}}</p>
-        <button (click)="share()">Share</button>
+     
 
-        <app-product-alerts [product]="product" (notfiy)="onNotify()"></app-product-alerts>
+        <app-product-alerts [product]="product"></app-product-alerts>
 
     </div>
 </div>

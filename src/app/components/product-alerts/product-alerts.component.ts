@@ -8,7 +8,6 @@ import { Product } from '../../interfaces/product';
 })
 export class ProductAlertsComponent implements OnInit {
   @Input() product: Product;
-  @Output() notfiy = new EventEmitter();
 
   constructor() { }
 
